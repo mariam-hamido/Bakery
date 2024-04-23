@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-size: 17px;
+    font-family: "Alegreya sans", sans-serif;
+    line-height: 1.86em;
+    color: #686868;
+}
+.contanier{
+    width: 80%;
+    margin: 0 auto;
+}
+h1,h2,h3,h4,ul{
+    font-family: "Alegreya "; 
+}
+h2,h3,h4,ul{
+    color: #303030;
+}
+h2{
+    margin-bottom: 25px;
+}
+.clear-fix{
+    clear: both;
+}
+.section-1 {
+    background-image: url(../Assets/images/drew-coffman-1872.jpg);
+    background-position: center center;
+    background-size:cover;
+    height: 100vh;
+}
+.nav {
+    text-align: right; 
+}
+.bg-overlay{
+    background-color: rgba(0,0,0, 0.2);
+    height: 100vh;
+}
+#logo {
+    height: 48px;
+    display: inline-block;
+    vertical-align: middle; 
+    margin-right:500px; 
+    margin-top: 24px;
+}
+.list-items {
+    padding: 0 10px;
+    display: inline-block;
+    vertical-align:top; 
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.list li {
+    padding: 25px 10px;
+    display: inline-block;
+}
+.list a {
+    text-decoration: none;
+    color: #e0dcd2;
+}
+.center{
+    margin-top: 200px;
+}
+.text-warpper{
+    text-align: center;
+    color: white;
+    margin:0 auto;
+    width:700px;
+}
+.wel{
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+.text-warpper h1{
+    margin-bottom: 18px;
+}
+.sup-heading{
+    font-size: 24px;
+}
+.buttons{
+    margin-top: 30px;
+}
+button{
+    border: 2px solid;
+    padding: 15 28px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+.shape{
+    margin: 100px auto 0 auto;
+    width: 25px;
+    height: 40px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 20px;
+}
+.shape .dot{
+    margin: 10px auto ;
+    background-color: white;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+.learn{
+    border-color: transparent;
+    background-color: #8E7754;
+}
+.contact{
+    margin-left: 5px;
+    background-color:transparent;
+}
+.section-2{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.img-warpper{
+    width: 48%;
+    display: inline-block;
+    vertical-align: top;
+}
+.section-2 img{
+    width: 90%; 
+    margin: 0 auto;
+}
+.who{
+    padding-left: 15px;
+    width: 48%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.who h2{
+    margin-top: 40px;
+}
+.who p{
+    margin-bottom: 25px;
+}
+.icon-list img{
+    border: 2px solid #e0dcd2;
+    border-radius: 50%;
+    width: 30px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.icon-list li{
+    color:#686868 ;
+    padding: 10px 0;
+    margin-bottom: 2px;
+}
+.section-3{
+    padding-top:60px ;
+    background-color: #f8f8f8;
+    padding-bottom: 60px;
+}
+.section-3 .location-warpper{
+    width: 48%;
+    padding-right: 15px;
+    margin-top: 60px;
+    display: inline-block;
+}
+.section-3 img-warpper{
+    display: inline-block;
+    vertical-align: middle;
+    width: 48%;
+}
+.section-3 img{
+    width: 100%;   
+}
+.section-4 .catalog{
+    margin-top: 60px;
+    text-align: center;
+}
+.section-4 img{
+    width: 100%;
+}
+.section-4 .card-warpper{
+    margin: 0 auto;
+    margin-top: 60px;
+    
+}
+.section-4 .card{
+    margin: 0 18px ;
+    float: left;
+    width: 30%;
+}
+.section-4 h4{
+    margin: 10px 0;
+}
+.section-5{
+    margin-top: 60px;
+    background-color: #f8f8f8;
+    padding-bottom: 60px;
+}
+.section-5 .contact{
+    padding-top: 60px;
+}
+.section-5 .icon-list img{
+    border: none;
+    background-color: #8E7754;
+} 
+.section-5 .contact-info p{
+    margin-bottom: 10px;
+}
+.section-5 .contact-info{
+    float: left;
+    width: 48%;
+}
+.section-5 iframe {
+    float: left;
+    width: 48%;
+}
+.section-6{
+    background-color: #403D38;
+    padding-bottom: 30px;
+}
+.section-6 .details{
+    padding-top: 40px;
+}
+.section-6 h4{
+    color: white;
+    margin-bottom: 10px;
+}
+.section-6 .about-us .tp{
+    margin-bottom: 10px;
+}
+.section-6 li{
+    padding: 8px 0;
+    border-bottom: 1px solid #686868 ;
+    color: #686868;
+}
+.section-6 .last{
+    border: none;
+}
+.section-6  img{
+    width: 30px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.section-6 .part{
+    float: left;
+    width: 23%;
+    margin-right: 20px;
+}
+.section-6 .contact-det{
+    position: relative;
+    margin: 0;
+}
+.section-6 .bg{
+    width: 100%;
+    margin-top: 60px;
+    opacity: 0.2;
+    position: absolute;
+}
+.section-7{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+    background-color: #353330;
+}
+.section-7 .copy{
+    margin-top: 30px;
+}
+.section-7 .social{
+    margin-top: 30px;
+    text-align: center;
+}
+.section-7 li{
+    margin-right: 5px;
+    display: inline-block;
+    background-color: #403D38;
+    border-radius: 50%;
+}
+.section-7 li img{
+    width: 40px;
+}
